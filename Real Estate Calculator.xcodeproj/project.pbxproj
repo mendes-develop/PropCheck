@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1273BD22761993009565EC /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1273BC22761993009565EC /* ExtensionViewController.swift */; };
 		2F4A67C22270D81900221D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67C12270D81900221D18 /* AppDelegate.swift */; };
-		2F4A67C42270D81900221D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67C32270D81900221D18 /* ViewController.swift */; };
+		2F4A67C42270D81900221D18 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67C32270D81900221D18 /* TableViewController.swift */; };
 		2F4A67C72270D81900221D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4A67C52270D81900221D18 /* Main.storyboard */; };
 		2F4A67CA2270D81900221D18 /* Real_Estate_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67C82270D81900221D18 /* Real_Estate_Calculator.xcdatamodeld */; };
-		2F4A67CC2270D83300221D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4A67CB2270D83300221D18 /* Assets.xcassets */; };
 		2F4A67CF2270D83300221D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4A67CD2270D83300221D18 /* LaunchScreen.storyboard */; };
+		2F4A67D82271065600221D18 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67D72271065600221D18 /* ViewController+CoreData.swift */; };
+		2F4A67DB22710EFC00221D18 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67DA22710EFC00221D18 /* TableViewCell.swift */; };
+		2F4A67DF2272499400221D18 /* PropertyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67DE2272499400221D18 /* PropertyListTableViewController.swift */; };
+		2F4A67E122724E4B00221D18 /* FixAndFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67E022724E4B00221D18 /* FixAndFlipViewController.swift */; };
+		2F4A67E322724E6900221D18 /* RentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67E222724E6900221D18 /* RentalViewController.swift */; };
+		2F4A67E522724E8800221D18 /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67E422724E8800221D18 /* MortgageViewController.swift */; };
+		2F4A67E722724F8300221D18 /* AddEdditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67E622724F8300221D18 /* AddEdditViewController.swift */; };
+		2F4A67E922726A8F00221D18 /* Extension Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67E822726A8F00221D18 /* Extension Float.swift */; };
+		2F4A67EB22726C1D00221D18 /* Extension String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67EA22726C1D00221D18 /* Extension String.swift */; };
+		2F4A67ED2273DC0900221D18 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67EC2273DC0900221D18 /* TextFields.swift */; };
+		2F4A67EF22753C3C00221D18 /* Calculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A67EE22753C3C00221D18 /* Calculators.swift */; };
+		2FC1D8A32282867600B3E492 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1D8A22282867600B3E492 /* Media.xcassets */; };
+		2FF1508B228357EF00D83F47 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1508A228357EF00D83F47 /* ListTableViewCell.swift */; };
+		2FF1508D228B53AB00D83F47 /* Extension UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1508C228B53AB00D83F47 /* Extension UIView.swift */; };
+		2FF1508F228B55D300D83F47 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1508E228B55D300D83F47 /* Colors.swift */; };
+		56D0CB7866FD77F9FCD7ADD2 /* Pods_Real_Estate_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7B8F206B28479E05A1F45 /* Pods_Real_Estate_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FE7B8F206B28479E05A1F45 /* Pods_Real_Estate_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Estate_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1273BC22761993009565EC /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
 		2F4A67BE2270D81900221D18 /* Real Estate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Estate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4A67C12270D81900221D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F4A67C32270D81900221D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F4A67C32270D81900221D18 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2F4A67C62270D81900221D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F4A67C92270D81900221D18 /* Real_Estate_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Real_Estate_Calculator.xcdatamodel; sourceTree = "<group>"; };
-		2F4A67CB2270D83300221D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F4A67CE2270D83300221D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F4A67D02270D83300221D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4A67D72271065600221D18 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		2F4A67DA22710EFC00221D18 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2F4A67DE2272499400221D18 /* PropertyListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListTableViewController.swift; sourceTree = "<group>"; };
+		2F4A67E022724E4B00221D18 /* FixAndFlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixAndFlipViewController.swift; sourceTree = "<group>"; };
+		2F4A67E222724E6900221D18 /* RentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalViewController.swift; sourceTree = "<group>"; };
+		2F4A67E422724E8800221D18 /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
+		2F4A67E622724F8300221D18 /* AddEdditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEdditViewController.swift; sourceTree = "<group>"; };
+		2F4A67E822726A8F00221D18 /* Extension Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Float.swift"; sourceTree = "<group>"; };
+		2F4A67EA22726C1D00221D18 /* Extension String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension String.swift"; sourceTree = "<group>"; };
+		2F4A67EC2273DC0900221D18 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		2F4A67EE22753C3C00221D18 /* Calculators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculators.swift; sourceTree = "<group>"; };
+		2FC1D8A22282867600B3E492 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2FF1508A228357EF00D83F47 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		2FF1508C228B53AB00D83F47 /* Extension UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension UIView.swift"; sourceTree = "<group>"; };
+		2FF1508E228B55D300D83F47 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E5BFF41D62FCC5E97D5BC904 /* Pods-Real Estate Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Estate Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Real Estate Calculator/Pods-Real Estate Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		E8B6DD48563DAFDFC45F8450 /* Pods-Real Estate Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Estate Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Real Estate Calculator/Pods-Real Estate Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D0CB7866FD77F9FCD7ADD2 /* Pods_Real_Estate_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				2F4A67C02270D81900221D18 /* Real Estate Calculator */,
 				2F4A67BF2270D81900221D18 /* Products */,
+				371953B420579322DFB9FB7F /* Pods */,
+				7A202AFD0FF19322E9DB2F28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +94,78 @@
 			isa = PBXGroup;
 			children = (
 				2F4A67C12270D81900221D18 /* AppDelegate.swift */,
-				2F4A67C32270D81900221D18 /* ViewController.swift */,
-				2F4A67C52270D81900221D18 /* Main.storyboard */,
-				2F4A67CB2270D83300221D18 /* Assets.xcassets */,
-				2F4A67CD2270D83300221D18 /* LaunchScreen.storyboard */,
+				2F4A67D6227105B400221D18 /* Controllers */,
+				2F4A67D9227106A800221D18 /* Model */,
+				2F4A67DC227234FD00221D18 /* View */,
 				2F4A67D02270D83300221D18 /* Info.plist */,
-				2F4A67C82270D81900221D18 /* Real_Estate_Calculator.xcdatamodeld */,
+				2FC1D8A22282867600B3E492 /* Media.xcassets */,
+				2F4A67DD2272351700221D18 /* Supporting Files */,
 			);
 			path = "Real Estate Calculator";
+			sourceTree = "<group>";
+		};
+		2F4A67D6227105B400221D18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F4A67C32270D81900221D18 /* TableViewController.swift */,
+				2F4A67DA22710EFC00221D18 /* TableViewCell.swift */,
+				2F4A67DE2272499400221D18 /* PropertyListTableViewController.swift */,
+				2FF1508A228357EF00D83F47 /* ListTableViewCell.swift */,
+				2F4A67E022724E4B00221D18 /* FixAndFlipViewController.swift */,
+				2F4A67E222724E6900221D18 /* RentalViewController.swift */,
+				2F4A67E422724E8800221D18 /* MortgageViewController.swift */,
+				2F4A67E622724F8300221D18 /* AddEdditViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F4A67D9227106A800221D18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F4A67EE22753C3C00221D18 /* Calculators.swift */,
+				2F4A67E822726A8F00221D18 /* Extension Float.swift */,
+				2F4A67EA22726C1D00221D18 /* Extension String.swift */,
+				2FF1508C228B53AB00D83F47 /* Extension UIView.swift */,
+				2FF1508E228B55D300D83F47 /* Colors.swift */,
+				2F1273BC22761993009565EC /* ExtensionViewController.swift */,
+				2F4A67D72271065600221D18 /* ViewController+CoreData.swift */,
+				2F4A67EC2273DC0900221D18 /* TextFields.swift */,
+				2F4A67C82270D81900221D18 /* Real_Estate_Calculator.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F4A67DC227234FD00221D18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F4A67C52270D81900221D18 /* Main.storyboard */,
+				2F4A67CD2270D83300221D18 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F4A67DD2272351700221D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		371953B420579322DFB9FB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B6DD48563DAFDFC45F8450 /* Pods-Real Estate Calculator.debug.xcconfig */,
+				E5BFF41D62FCC5E97D5BC904 /* Pods-Real Estate Calculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A202AFD0FF19322E9DB2F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7B8F206B28479E05A1F45 /* Pods_Real_Estate_Calculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F4A67D32270D83300221D18 /* Build configuration list for PBXNativeTarget "Real Estate Calculator" */;
 			buildPhases = (
+				1E6FCE01FB3F58776C8AE9B8 /* [CP] Check Pods Manifest.lock */,
 				2F4A67BA2270D81900221D18 /* Sources */,
 				2F4A67BB2270D81900221D18 /* Frameworks */,
 				2F4A67BC2270D81900221D18 /* Resources */,
+				FDEE447A9DE04F0CBE522EEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +229,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4A67CF2270D83300221D18 /* LaunchScreen.storyboard in Resources */,
-				2F4A67CC2270D83300221D18 /* Assets.xcassets in Resources */,
+				2FC1D8A32282867600B3E492 /* Media.xcassets in Resources */,
 				2F4A67C72270D81900221D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6FCE01FB3F58776C8AE9B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Real Estate Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEE447A9DE04F0CBE522EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Real Estate Calculator/Pods-Real Estate Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Real Estate Calculator/Pods-Real Estate Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F4A67BA2270D81900221D18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4A67C42270D81900221D18 /* ViewController.swift in Sources */,
+				2F4A67DF2272499400221D18 /* PropertyListTableViewController.swift in Sources */,
+				2FF1508F228B55D300D83F47 /* Colors.swift in Sources */,
+				2FF1508B228357EF00D83F47 /* ListTableViewCell.swift in Sources */,
+				2F4A67E722724F8300221D18 /* AddEdditViewController.swift in Sources */,
+				2F4A67E122724E4B00221D18 /* FixAndFlipViewController.swift in Sources */,
+				2F4A67E322724E6900221D18 /* RentalViewController.swift in Sources */,
+				2F4A67E922726A8F00221D18 /* Extension Float.swift in Sources */,
+				2F4A67EB22726C1D00221D18 /* Extension String.swift in Sources */,
+				2F4A67DB22710EFC00221D18 /* TableViewCell.swift in Sources */,
+				2F4A67C42270D81900221D18 /* TableViewController.swift in Sources */,
+				2F4A67E522724E8800221D18 /* MortgageViewController.swift in Sources */,
+				2F4A67ED2273DC0900221D18 /* TextFields.swift in Sources */,
+				2F4A67D82271065600221D18 /* ViewController+CoreData.swift in Sources */,
+				2F1273BD22761993009565EC /* ExtensionViewController.swift in Sources */,
+				2FF1508D228B53AB00D83F47 /* Extension UIView.swift in Sources */,
+				2F4A67EF22753C3C00221D18 /* Calculators.swift in Sources */,
 				2F4A67CA2270D81900221D18 /* Real_Estate_Calculator.xcdatamodeld in Sources */,
 				2F4A67C22270D81900221D18 /* AppDelegate.swift in Sources */,
 			);
@@ -284,37 +449,41 @@
 		};
 		2F4A67D42270D83300221D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B6DD48563DAFDFC45F8450 /* Pods-Real Estate Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R566C93B7S;
+				DEVELOPMENT_TEAM = X7GF72UU2P;
 				INFOPLIST_FILE = "Real Estate Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AlexMendes.Real-Estate-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexMendesDeveloper.PropCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2F4A67D52270D83300221D18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BFF41D62FCC5E97D5BC904 /* Pods-Real Estate Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R566C93B7S;
+				DEVELOPMENT_TEAM = X7GF72UU2P;
 				INFOPLIST_FILE = "Real Estate Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "AlexMendes.Real-Estate-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexMendesDeveloper.PropCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
