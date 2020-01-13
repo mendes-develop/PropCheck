@@ -73,7 +73,6 @@ class TableViewController: UITableViewController {
     
     
     // MARK: - FUNCTIONS
-    
     func loadProperties() {
         
         let fetchRequest: NSFetchRequest<Property> = Property.fetchRequest()
@@ -100,5 +99,9 @@ class TableViewController: UITableViewController {
         addNewPropertyButton.layer.cornerRadius = addNewPropertyButton.frame.size.height/2
         viewButton.dropShadow()
     }
+    
+    
 }
+
+
 
